@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F26587E2AFE987B00CD4BCE /* NewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F26587D2AFE987B00CD4BCE /* NewRecipeView.swift */; };
+		4F2658802AFE996C00CD4BCE /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F26587F2AFE996C00CD4BCE /* OpenAIService.swift */; };
+		4F2658832B0073C300CD4BCE /* RequestModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2658822B0073C300CD4BCE /* RequestModels.swift */; };
+		4F2658852B0073F100CD4BCE /* ResponseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2658842B0073F100CD4BCE /* ResponseModels.swift */; };
+		4F2658872B00740400CD4BCE /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2658862B00740400CD4BCE /* Secrets.swift */; };
+		4F53DB7E2B102A98002F8CCD /* RecipeDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F53DB7D2B102A98002F8CCD /* RecipeDisplayView.swift */; };
+		4F5A683B2AF462F60000A77D /* BottomScreenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5A683A2AF462F60000A77D /* BottomScreenButton.swift */; };
+		4F8175512AEC3CE000C367FA /* SporkApp_v3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8175502AEC3CE000C367FA /* SporkApp_v3App.swift */; };
+		4F8175532AEC3CE000C367FA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8175522AEC3CE000C367FA /* HomeView.swift */; };
+		4F8175552AEC3CE100C367FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8175542AEC3CE100C367FA /* Assets.xcassets */; };
+		4F8175582AEC3CE100C367FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8175572AEC3CE100C367FA /* Preview Assets.xcassets */; };
+		4FDC93BF2B309D180064CF8B /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC93BE2B309D180064CF8B /* RecipeData.swift */; };
+		4FDC93C72B31EDC80064CF8B /* Nunito-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC93C62B31EDC80064CF8B /* Nunito-VariableFont_wght.ttf */; };
+		4FDC93C92B31F6930064CF8B /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC93C82B31F6930064CF8B /* CustomColors.swift */; };
+		4FDC93CC2B3376470064CF8B /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4FDC93CB2B3376470064CF8B /* OpenAIKit */; };
+		4FDC93CE2B33772B0064CF8B /* ImageAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC93CD2B33772B0064CF8B /* ImageAIService.swift */; };
+		4FDC93D02B3485430064CF8B /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC93CF2B3485430064CF8B /* LoadingView.swift */; };
+		4FDC93D22B3487D30064CF8B /* SelectableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC93D12B3487D30064CF8B /* SelectableScrollView.swift */; };
+		4FDC93D52B348E1B0064CF8B /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC93D42B348E1B0064CF8B /* IngredientsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F26587D2AFE987B00CD4BCE /* NewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipeView.swift; sourceTree = "<group>"; };
+		4F26587F2AFE996C00CD4BCE /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+		4F2658822B0073C300CD4BCE /* RequestModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModels.swift; sourceTree = "<group>"; };
+		4F2658842B0073F100CD4BCE /* ResponseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModels.swift; sourceTree = "<group>"; };
+		4F2658862B00740400CD4BCE /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		4F53DB7D2B102A98002F8CCD /* RecipeDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDisplayView.swift; sourceTree = "<group>"; };
+		4F5A683A2AF462F60000A77D /* BottomScreenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomScreenButton.swift; sourceTree = "<group>"; };
+		4F81754D2AEC3CE000C367FA /* SporkApp-v3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SporkApp-v3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8175502AEC3CE000C367FA /* SporkApp_v3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SporkApp_v3App.swift; sourceTree = "<group>"; };
+		4F8175522AEC3CE000C367FA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4F8175542AEC3CE100C367FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F8175572AEC3CE100C367FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4FDC93BE2B309D180064CF8B /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
+		4FDC93C52B31EB150064CF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4FDC93C62B31EDC80064CF8B /* Nunito-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		4FDC93C82B31F6930064CF8B /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
+		4FDC93CD2B33772B0064CF8B /* ImageAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAIService.swift; sourceTree = "<group>"; };
+		4FDC93CF2B3485430064CF8B /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		4FDC93D12B3487D30064CF8B /* SelectableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableScrollView.swift; sourceTree = "<group>"; };
+		4FDC93D42B348E1B0064CF8B /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F81754A2AEC3CE000C367FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDC93CC2B3376470064CF8B /* OpenAIKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F26587C2AFE82C100CD4BCE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F2658822B0073C300CD4BCE /* RequestModels.swift */,
+				4F2658842B0073F100CD4BCE /* ResponseModels.swift */,
+				4FDC93BE2B309D180064CF8B /* RecipeData.swift */,
+				4F2658862B00740400CD4BCE /* Secrets.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4F2658812B00738600CD4BCE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4F26587F2AFE996C00CD4BCE /* OpenAIService.swift */,
+				4FDC93CD2B33772B0064CF8B /* ImageAIService.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4F5A68392AF462D20000A77D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F8175522AEC3CE000C367FA /* HomeView.swift */,
+				4F26587D2AFE987B00CD4BCE /* NewRecipeView.swift */,
+				4F53DB7D2B102A98002F8CCD /* RecipeDisplayView.swift */,
+				4FDC93CF2B3485430064CF8B /* LoadingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4F8175442AEC3CE000C367FA = {
+			isa = PBXGroup;
+			children = (
+				4F81754F2AEC3CE000C367FA /* SporkApp-v3 */,
+				4F81754E2AEC3CE000C367FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F81754E2AEC3CE000C367FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F81754D2AEC3CE000C367FA /* SporkApp-v3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F81754F2AEC3CE000C367FA /* SporkApp-v3 */ = {
+			isa = PBXGroup;
+			children = (
+				4FDC93C52B31EB150064CF8B /* Info.plist */,
+				4F8175502AEC3CE000C367FA /* SporkApp_v3App.swift */,
+				4F2658812B00738600CD4BCE /* Controller */,
+				4F26587C2AFE82C100CD4BCE /* Models */,
+				4F5A68392AF462D20000A77D /* View */,
+				4FDC93D32B348DFC0064CF8B /* UI Elements */,
+				4FDC93BD2B2F49380064CF8B /* UI Assets */,
+				4FDC93C22B31E8ED0064CF8B /* Fonts */,
+				4F8175542AEC3CE100C367FA /* Assets.xcassets */,
+				4F8175562AEC3CE100C367FA /* Preview Content */,
+			);
+			path = "SporkApp-v3";
+			sourceTree = "<group>";
+		};
+		4F8175562AEC3CE100C367FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F8175572AEC3CE100C367FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4FDC93BD2B2F49380064CF8B /* UI Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4F5A683A2AF462F60000A77D /* BottomScreenButton.swift */,
+				4FDC93C82B31F6930064CF8B /* CustomColors.swift */,
+			);
+			path = "UI Assets";
+			sourceTree = "<group>";
+		};
+		4FDC93C22B31E8ED0064CF8B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4FDC93C62B31EDC80064CF8B /* Nunito-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4FDC93D32B348DFC0064CF8B /* UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				4FDC93D12B3487D30064CF8B /* SelectableScrollView.swift */,
+				4FDC93D42B348E1B0064CF8B /* IngredientsView.swift */,
+			);
+			path = "UI Elements";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F81754C2AEC3CE000C367FA /* SporkApp-v3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F81755B2AEC3CE100C367FA /* Build configuration list for PBXNativeTarget "SporkApp-v3" */;
+			buildPhases = (
+				4F8175492AEC3CE000C367FA /* Sources */,
+				4F81754A2AEC3CE000C367FA /* Frameworks */,
+				4F81754B2AEC3CE000C367FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SporkApp-v3";
+			packageProductDependencies = (
+				4FDC93CB2B3376470064CF8B /* OpenAIKit */,
+			);
+			productName = "SporkApp-v3";
+			productReference = 4F81754D2AEC3CE000C367FA /* SporkApp-v3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F8175452AEC3CE000C367FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4F81754C2AEC3CE000C367FA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 4F8175482AEC3CE000C367FA /* Build configuration list for PBXProject "SporkApp-v3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F8175442AEC3CE000C367FA;
+			packageReferences = (
+				4FDC93CA2B3376460064CF8B /* XCRemoteSwiftPackageReference "OpenAIKit" */,
+			);
+			productRefGroup = 4F81754E2AEC3CE000C367FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F81754C2AEC3CE000C367FA /* SporkApp-v3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F81754B2AEC3CE000C367FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8175582AEC3CE100C367FA /* Preview Assets.xcassets in Resources */,
+				4FDC93C72B31EDC80064CF8B /* Nunito-VariableFont_wght.ttf in Resources */,
+				4F8175552AEC3CE100C367FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F8175492AEC3CE000C367FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F53DB7E2B102A98002F8CCD /* RecipeDisplayView.swift in Sources */,
+				4FDC93D52B348E1B0064CF8B /* IngredientsView.swift in Sources */,
+				4F5A683B2AF462F60000A77D /* BottomScreenButton.swift in Sources */,
+				4F2658872B00740400CD4BCE /* Secrets.swift in Sources */,
+				4F2658832B0073C300CD4BCE /* RequestModels.swift in Sources */,
+				4FDC93D02B3485430064CF8B /* LoadingView.swift in Sources */,
+				4FDC93D22B3487D30064CF8B /* SelectableScrollView.swift in Sources */,
+				4F8175532AEC3CE000C367FA /* HomeView.swift in Sources */,
+				4F8175512AEC3CE000C367FA /* SporkApp_v3App.swift in Sources */,
+				4F26587E2AFE987B00CD4BCE /* NewRecipeView.swift in Sources */,
+				4FDC93CE2B33772B0064CF8B /* ImageAIService.swift in Sources */,
+				4FDC93BF2B309D180064CF8B /* RecipeData.swift in Sources */,
+				4F2658802AFE996C00CD4BCE /* OpenAIService.swift in Sources */,
+				4FDC93C92B31F6930064CF8B /* CustomColors.swift in Sources */,
+				4F2658852B0073F100CD4BCE /* ResponseModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F8175592AEC3CE100C367FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F81755A2AEC3CE100C367FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F81755C2AEC3CE100C367FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SporkApp-v3/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SporkApp-v3/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adambelouad.SporkApp-v3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F81755D2AEC3CE100C367FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SporkApp-v3/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SporkApp-v3/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adambelouad.SporkApp-v3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F8175482AEC3CE000C367FA /* Build configuration list for PBXProject "SporkApp-v3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8175592AEC3CE100C367FA /* Debug */,
+				4F81755A2AEC3CE100C367FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F81755B2AEC3CE100C367FA /* Build configuration list for PBXNativeTarget "SporkApp-v3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F81755C2AEC3CE100C367FA /* Debug */,
+				4F81755D2AEC3CE100C367FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4FDC93CA2B3376460064CF8B /* XCRemoteSwiftPackageReference "OpenAIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OpenDive/OpenAIKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4FDC93CB2B3376470064CF8B /* OpenAIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FDC93CA2B3376460064CF8B /* XCRemoteSwiftPackageReference "OpenAIKit" */;
+			productName = OpenAIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4F8175452AEC3CE000C367FA /* Project object */;
+}
