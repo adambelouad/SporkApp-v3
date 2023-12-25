@@ -18,7 +18,7 @@ struct RecipeDisplayView: View {
 
     func fetchData() async {
         do {
-            recipeResponse = try await OpenAIService.shared.sendPromptToChatGPT(message: "Write a recipe for me that can be cooked in \(recipeData.selectedTimeValue) time or less using these ingredients: \(recipeData.ingredients)")
+            recipeResponse = try await OpenAIService.shared.sendPromptToChatGPT(message: "Write a recipe for me that can be cooked in \(recipeData.selectedTimeValue) time or less using these ingredients: \(recipeData.ingredients). The recipe should serve \(recipeData.servesValues) number of people.")
         } catch {
             print("Error: \(error)")
         }
@@ -80,7 +80,7 @@ struct RecipeDisplayView: View {
                             .padding(.top, 10)
                             .font(Font.custom("Nunito-ExtraBold", size: 34))
                         
-                        Text("\(capitalizeFirstLetterOfEachWord(response.time))")
+                        Text("\(capitalizeFirstLetterOfEachWord(response.time)) • Serves \(capitalizeFirstLetterOfEachWord(response.serves))")
                             .bold()
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .padding(.bottom, 10)

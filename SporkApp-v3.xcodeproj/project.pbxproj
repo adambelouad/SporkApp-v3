@@ -88,8 +88,8 @@
 			children = (
 				4F8175522AEC3CE000C367FA /* HomeView.swift */,
 				4F26587D2AFE987B00CD4BCE /* NewRecipeView.swift */,
-				4F53DB7D2B102A98002F8CCD /* RecipeDisplayView.swift */,
 				4FDC93CF2B3485430064CF8B /* LoadingView.swift */,
+				4F53DB7D2B102A98002F8CCD /* RecipeDisplayView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -192,7 +192,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					4F81754C2AEC3CE000C367FA = {
 						CreatedOnToolsVersion = 14.2;
@@ -295,6 +295,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -355,6 +356,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -381,6 +383,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SporkApp-v3/Preview Content\"";
+				DEVELOPMENT_TEAM = VMRQWAL27T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SporkApp-v3/Info.plist";
@@ -410,6 +413,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SporkApp-v3/Preview Content\"";
+				DEVELOPMENT_TEAM = VMRQWAL27T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SporkApp-v3/Info.plist";

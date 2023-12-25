@@ -31,6 +31,7 @@ struct GPTFunctionCall: Decodable {
 struct RecipeResponse: Decodable {
     let title: String
     let time: String
+    let serves: String 
     let ingredients: String
     let instructions: String
 }

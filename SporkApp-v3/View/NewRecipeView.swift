@@ -19,7 +19,7 @@ struct NewRecipeView: View {
             
             NavigationStack {
                 
-                Text("time:").bold()
+                Text("max time").bold()
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.leading, 10)
                     .padding()
@@ -33,7 +33,7 @@ struct NewRecipeView: View {
                 .padding(.leading, 10)
                 .padding(.bottom, -20)
                 
-                Text("serves: ").bold()
+                Text("people").bold()
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.leading, 10)
                     .padding()
@@ -64,11 +64,7 @@ struct NewRecipeView: View {
                                 .frame(width: 370, height: 50)
                             
                             HStack {
-                                /*
-                                 Text("\(index + 1).")
-                                 .font(Font.custom("Nunito-SemiBold", size: 20))
-                                 .foregroundColor(.white)
-                                 */
+                          
                                 TextField("Enter an ingredient", text: $recipeData.ingredients[index])
                                     .font(Font.custom("Nunito-Bold", size: 20))
                                     .textCase(.lowercase)
@@ -97,8 +93,8 @@ struct NewRecipeView: View {
                             .padding(.leading, 5)
                         
                         TextField("", text: $recipeData.newIngredient, prompt: Text("enter a new ingredient")
+                            .font(Font.custom("Nunito-Bold", size: 20)))
                             .foregroundColor(.black)
-                            .font(Font.custom("Nunito-SemiBold", size: 20)))
                             .accentColor(.black)
                             .textInputAutocapitalization(.never)
                             .onSubmit {
@@ -116,7 +112,6 @@ struct NewRecipeView: View {
                 .padding()
                 
             }
-            .background(CustomColors.backgroundColor)
             .navigationTitle("new recipe")
             
         }

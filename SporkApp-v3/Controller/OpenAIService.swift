@@ -43,7 +43,8 @@ class OpenAIService {
         let userMessage = GPTMessage(role: "user", content: message)
         
         let title = GPTFunctionProperty(type: "string", description: "The name of the recipe")
-        let time = GPTFunctionProperty(type: "string", description: "The time the recipe will take to cook")
+        let time = GPTFunctionProperty(type: "string", description: "The time the recipe will take to cook. Must be a specific number.")
+        let serves = GPTFunctionProperty(type: "string", description: "The number of people the meal can feed. Return as a specific number.")
         let ingredients = GPTFunctionProperty(type: "string", description: "The ingredients needed for the recipe. Provide in bullet points")
         let instructions = GPTFunctionProperty(type: "string", description: "The steps for the recipe. Provide in a numbered list")
         
@@ -51,7 +52,8 @@ class OpenAIService {
             "title": title,
             "time": time,
             "ingredients": ingredients,
-            "instructions": instructions
+            "instructions": instructions,
+            "serves": serves
         ]
         let functionParams = GPTFunctionParam(type: "object", properties: params, required: ["title", "time", "ingredients", "instructions"])
         let function = GPTFunction(name: "get_recipe", description: "Create a recipe using given parameters", parameters: functionParams)
